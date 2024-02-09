@@ -1,0 +1,56 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* White */
+  color: black;
+  padding: 10px 20px;
+}
+
+.project-name {
+  font-size: 24px;
+}
+
+.header-elements {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar {
+  padding: 8px 12px;
+  border-radius: 20px; /* Rounded corners */
+  border: 2px solid #4caf50; /* Green */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  background-color: transparent;
+  color: black;
+}
+
+.about-button {
+  color: #4caf50; /* Green */
+}
+
+.report-button {
+  color: #ff4081; /* Pink */
+}
+
+.sign-in {
+  color: #ffeb3b; /* Yellow */
+}
+
+button:hover {
+  background-color: #4caf50; /* Green */
+  color: black;
+}
+
+.logo {
+  width: 245px; /* Adjust the width as per your requirement */
+  height: auto; /* Maintain aspect ratio */
+}
