@@ -43,12 +43,16 @@ const App = () => {
         </div>
         <div className="blue-box-right">
             <div className="card card-blue-lorem">
-              <h5>Lorem Ipsum</h5>
+              <h5></h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                nec urna vitae nisi ullamcorper tristique.Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Nullam nec urna vitae nisi
-                ullamcorper tristique.
+              Our website seamlessly integrates Google Maps to provide users with an intuitive way to locate nearby rehab centers.
+               Leveraging the power of Google Maps API,
+                users can easily visualize the proximity of rehabilitation facilities within their vicinity
+                . Through geocoding, addresses are converted into map coordinates, ensuring precise placement of markers.
+                 Our database houses comprehensive information about these centers, including addresses and contact details.
+                  With dynamic data fetching, users experience real-time updates as they explore the map.
+                   Custom map styling enhances the user interface, while interactive markers reveal pertinent information about each rehab center.
+               This integration empowers users with accessibility and convenience in their journey towards recovery.
               </p>
             </div>
           </div>
